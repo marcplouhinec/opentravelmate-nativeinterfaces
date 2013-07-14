@@ -9,10 +9,10 @@ define(function() {
 
     var nativeWebView = {
         /**
-	     * Build the native view object for the current widget.
-	     * 
-	     * @param {String} jsonLayoutParams JSON-serialized LayoutParams
-    	 */
+         * Build the native view object for the current widget.
+         * 
+         * @param {String} jsonLayoutParams JSON-serialized LayoutParams
+         */
         'buildView': function(jsonLayoutParams) {
         }
     };

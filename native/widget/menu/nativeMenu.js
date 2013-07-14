@@ -9,19 +9,19 @@ define(function() {
 
     var nativeMenu = {
         /**
-    	 * Build the native view object for the current widget.
-	     * 
-    	 * @param {String} jsonLayoutParams JSON-serialized LayoutParams
-    	 */
+         * Build the native view object for the current widget.
+         * 
+         * @param {String} jsonLayoutParams JSON-serialized LayoutParams
+         */
         'buildView': function(jsonLayoutParams) {
         },
 
         /**
-    	 * Add the menu item to the native widget.
-    	 * 
-    	 * @param {String} menuPlaceHolderId Place-holder ID of the menu.
-    	 * @param {String} jsonMenuItem JSON-serialized MenuItem
-    	 */
+         * Add the menu item to the native widget.
+         * 
+         * @param {String} menuPlaceHolderId Place-holder ID of the menu.
+         * @param {String} jsonMenuItem JSON-serialized MenuItem
+         */
         'addMenuItem': function(menuPlaceHolderId, jsonMenuItem) {
         }
     };
