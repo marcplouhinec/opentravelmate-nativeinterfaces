@@ -17,6 +17,14 @@ define(function() {
         },
 
         /**
+         * Remove the native view object for the current widget.
+         * 
+         * @param {String} id Place holder ID
+         */
+        'removeView': function(id) {
+        },
+
+        /**
          * Fire an event to a listener that is outside of the WebView.
          *
          * @param {String} webViewPlaceHolderId
@@ -24,15 +32,6 @@ define(function() {
          * @param {String} jsonPayload
          */
         'fireExternalEvent': function(webViewPlaceHolderId, eventName, jsonPayload) {
-        },
-
-        /**
-         * Remove the view with the given ID.
-         *
-         * @param {String} id
-         *     Place holder ID.
-         */
-        'removeView': function(id) {
         }
     };
 
