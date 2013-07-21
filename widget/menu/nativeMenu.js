@@ -17,6 +17,14 @@ define(function() {
         },
 
         /**
+         * Update the native view object for the current widget.
+         *
+         * @param {String} jsonLayoutParams JSON-serialized LayoutParams
+         */
+        'updateView': function(jsonLayoutParams) {
+        },
+
+        /**
          * Remove the native view object for the current widget.
          *
          * @param {String} id Place holder ID
