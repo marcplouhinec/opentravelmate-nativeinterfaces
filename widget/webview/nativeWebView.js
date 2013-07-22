@@ -40,6 +40,16 @@ define(function() {
          * @param {String} jsonPayload
          */
         'fireExternalEvent': function(webViewPlaceHolderId, eventName, jsonPayload) {
+        },
+        
+        /**
+         * Fire an event to a listener that is inside the WebView.
+         *
+         * @param {String} webViewPlaceHolderId
+         * @param {String} eventName
+         * @param {String} jsonPayload
+         */
+        'fireInternalEvent': function(webViewPlaceHolderId, eventName, jsonPayload) {
         }
     };
 
