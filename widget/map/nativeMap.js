@@ -30,6 +30,39 @@ define(function() {
          * @param {String} id Place holder ID
          */
         'removeView': function(id) {
+        },
+
+        /**
+         * Move the map center to the given location.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonCenter
+         *     JSON serialized LatLng.
+         */
+        'panTo': function(id, jsonCenter) {
+        },
+
+        /**
+         * Add a marker on the map.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonMarker
+         *     JSON serialized Marker.
+         */
+        'addMarker': function(id, jsonMarker) {
+        },
+
+        /**
+         * Remove a marker from the map.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonMarker
+         *     JSON serialized Marker.
+         */
+        'removeMarker': function(id, jsonMarker) {
         }
     };
 
