@@ -31,6 +31,17 @@ define(function() {
          */
         'removeView': function(id) {
         },
+        
+        /**
+         * Add an overlay to the map.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonTileOverlay
+         *     JSON serialized TileOverlay.
+         */
+        'addTileOverlay': function(id, jsonTileOverlay) {
+        },
 
         /**
          * Move the map center to the given location.
