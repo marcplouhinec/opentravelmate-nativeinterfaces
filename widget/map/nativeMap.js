@@ -74,6 +74,28 @@ define(function() {
          *     JSON serialized Marker.
          */
         'removeMarker': function(id, jsonMarker) {
+        },
+
+        /**
+         * Start observing tiles and forward the TILES_DISPLAYED and TILES_RELEASED events to the
+         * map defined by the given place-holder ID.
+         * Note: this function does nothing if the tiles are already observed.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         */
+        'observeTiles': function(id) {
+        },
+
+        /**
+         * Get all the visible tile coordinates.
+         * Note: the function observeTiles() must be called before executing this one.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @return {String} JSON-serialized Array.<{zoom: Number, x: Number, y: Number}>
+         */
+        'getDisplayedTileCoordinates': function(id) {
         }
     };
 
