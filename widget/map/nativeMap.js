@@ -96,6 +96,17 @@ define(function() {
          * @return {String} JSON-serialized Array.<{zoom: Number, x: Number, y: Number}>
          */
         'getDisplayedTileCoordinates': function(id) {
+        },
+        
+        /**
+         * Start observing markers and forward the CLICK, MOUSE_ENTER and MOUSE_LEAVE events to the
+         * map defined by the given place-holder ID.
+         * Note: this function does nothing if the markers are already observed.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         */
+        'observeMarkers': function (id) {
         }
     };
 
