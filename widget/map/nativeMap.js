@@ -97,6 +97,17 @@ define(function() {
          */
         'getDisplayedTileCoordinates': function(id) {
         },
+        
+        /**
+         * Start observing markers and forward the CLICK, MOUSE_ENTER and MOUSE_LEAVE events to the
+         * map defined by the given place-holder ID.
+         * Note: this function does nothing if the markers are already observed.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         */
+        'observeMarkers': function (id) {
+        },
 
         /**
          * Show the given text in an Info Window on top of the given marker.
@@ -109,7 +120,7 @@ define(function() {
          *     Text displayed in the Info Window.
          */
         'showInfoWindow': function(id, markerId, content) {
-        }
+	}
     };
 
     return nativeMap;
