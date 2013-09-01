@@ -96,6 +96,19 @@ define(function() {
          * @return {String} JSON-serialized Array.<{zoom: Number, x: Number, y: Number}>
          */
         'getDisplayedTileCoordinates': function(id) {
+        },
+
+        /**
+         * Show the given text in an Info Window on top of the given marker.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {Number} markerId
+         *     ID of the marker where to set the Info Window anchor.
+         * @param content
+         *     Text displayed in the Info Window.
+         */
+        'showInfoWindow': function(id, markerId, content) {
         }
     };
 
