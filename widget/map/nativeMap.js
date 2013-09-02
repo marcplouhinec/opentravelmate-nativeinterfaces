@@ -114,13 +114,13 @@ define(function() {
          *
          * @param {String} id
          *     Map place holder ID.
-         * @param {Number} markerId
-         *     ID of the marker where to set the Info Window anchor.
+         * @param {String} jsonMarker
+         *     JSON-serialized marker where to set the Info Window anchor.
          * @param content
          *     Text displayed in the Info Window.
          */
-        'showInfoWindow': function(id, markerId, content) {
-	}
+        'showInfoWindow': function(id, jsonMarker, content) {
+        }
     };
 
     return nativeMap;
