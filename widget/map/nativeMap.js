@@ -55,25 +55,25 @@ define(function() {
         },
 
         /**
-         * Add a marker on the map.
+         * Add markers on the map.
          *
          * @param {String} id
          *     Map place holder ID.
-         * @param {String} jsonMarker
-         *     JSON serialized Marker.
+         * @param {String} jsonMarkers
+         *     JSON serialized array of markers.
          */
-        'addMarker': function(id, jsonMarker) {
+        'addMarkers': function(id, jsonMarkers) {
         },
 
         /**
-         * Remove a marker from the map.
+         * Remove markers from the map.
          *
          * @param {String} id
          *     Map place holder ID.
-         * @param {String} jsonMarker
-         *     JSON serialized Marker.
+         * @param {String} jsonMarkers
+         *     JSON serialized array of markers.
          */
-        'removeMarker': function(id, jsonMarker) {
+        'removeMarkers': function(id, jsonMarkers) {
         },
 
         /**
