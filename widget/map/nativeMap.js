@@ -118,8 +118,14 @@ define(function() {
          *     JSON-serialized marker where to set the Info Window anchor.
          * @param content
          *     Text displayed in the Info Window.
+         * @param {String} jsonAnchor
+         *     JSON-serialized position of the the InfoWindow-base compared to the marker position.
+         *     Examples:
+         *       - (0,0) is the marker position.
+         *       - (0,1) is on the under of the marker position.
+         *       - (-1,0) is on the left of the marker position.
          */
-        'showInfoWindow': function(id, jsonMarker, content) {
+        'showInfoWindow': function(id, jsonMarker, content, jsonAnchor) {
         }
     };
 
