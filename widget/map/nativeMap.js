@@ -53,6 +53,17 @@ define(function() {
          */
         'panTo': function(id, jsonCenter) {
         },
+        
+        /**
+         * Get the map bounds (South-West and North-East points).
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @return {String} jsonBounds
+         *     JSON serialized {sw: LatLng, ne: LatLng}.
+         */
+        'getBounds': function(id) {
+        },
 
         /**
          * Add markers on the map.
