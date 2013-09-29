@@ -88,6 +88,17 @@ define(function() {
         },
 
         /**
+         * Add a button on the map top-right corner.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonMapButton
+         *     JSON serialized MapButton.
+         */
+        'addMapButton': function(id, jsonMapButton) {
+        },
+
+        /**
          * Start observing tiles and forward the TILES_DISPLAYED and TILES_RELEASED events to the
          * map defined by the given place-holder ID.
          * Note: this function does nothing if the tiles are already observed.
@@ -137,6 +148,17 @@ define(function() {
          *       - (-1,0) is on the left of the marker position.
          */
         'showInfoWindow': function(id, jsonMarker, content, jsonAnchor) {
+        },
+
+        /**
+         * Set the map type.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} mapType
+         *     'ROADMAP' or 'SATELLITE'.
+         */
+        'setMapType': function(id, mapType) {
         }
     };
 
