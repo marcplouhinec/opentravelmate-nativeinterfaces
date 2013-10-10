@@ -162,6 +162,15 @@ define(function() {
         },
 
         /**
+         * Close the Info Window if any.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         */
+        'closeInfoWindow': function(id) {
+        },
+
+        /**
          * Set the map type.
          *
          * @param {String} id
