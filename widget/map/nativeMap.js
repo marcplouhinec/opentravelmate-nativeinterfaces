@@ -179,6 +179,17 @@ define(function() {
          *     'ROADMAP' or 'SATELLITE'.
          */
         'setMapType': function(id, mapType) {
+        },
+        
+        /**
+         * Add the given polyline on the map.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonPolyline
+         *     Polyline to add.
+         */
+        'addPolyline': function(id, jsonPolyline) {
         }
     };
 
