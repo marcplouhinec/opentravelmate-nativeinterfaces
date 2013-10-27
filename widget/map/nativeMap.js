@@ -190,6 +190,17 @@ define(function() {
          *     Polyline to add.
          */
         'addPolyline': function(id, jsonPolyline) {
+        },
+        
+        /**
+         * Remove the given polyline from the map.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonPolyline
+         *     Polyline to remove.
+         */
+        'removePolyline': function(id, jsonPolyline) {
         }
     };
 
