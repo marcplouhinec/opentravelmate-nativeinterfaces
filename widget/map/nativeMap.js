@@ -201,6 +201,28 @@ define(function() {
          *     Polyline to remove.
          */
         'removePolyline': function(id, jsonPolyline) {
+        },
+
+        /**
+         * Add the given polygons on the map.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonPolygons
+         *     Polygons to add.
+         */
+        'addPolygons': function(id, jsonPolygons) {
+        },
+
+        /**
+         * Remove the given polygons from the map.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonPolygons
+         *     Polygons to remove.
+         */
+        'removePolygons': function(id, jsonPolygons) {
         }
     };
 
