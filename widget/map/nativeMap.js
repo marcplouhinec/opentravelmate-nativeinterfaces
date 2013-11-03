@@ -176,7 +176,7 @@ define(function() {
          * @param {String} id
          *     Map place holder ID.
          * @param {String} mapType
-         *     'ROADMAP' or 'SATELLITE'.
+         *     'ROADMAP', 'HYBRID' or 'SATELLITE'.
          */
         'setMapType': function(id, mapType) {
         },
