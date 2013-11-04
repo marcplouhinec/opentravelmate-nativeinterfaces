@@ -182,25 +182,25 @@ define(function() {
         },
         
         /**
-         * Add the given polyline on the map.
+         * Show the given polylines on the map.
          *
          * @param {String} id
          *     Map place holder ID.
-         * @param {String} jsonPolyline
-         *     Polyline to add.
+         * @param {String} jsonPolylines
+         *     Polylines to add.
          */
-        'addPolyline': function(id, jsonPolyline) {
+        'addPolylines': function(id, jsonPolylines) {
         },
         
         /**
-         * Remove the given polyline from the map.
+         * Remove the given polylines from the map.
          *
          * @param {String} id
          *     Map place holder ID.
-         * @param {String} jsonPolyline
-         *     Polyline to remove.
+         * @param {String} jsonPolylines
+         *     Polylines to remove.
          */
-        'removePolyline': function(id, jsonPolyline) {
+        'removePolylines': function(id, jsonPolylines) {
         },
 
         /**
