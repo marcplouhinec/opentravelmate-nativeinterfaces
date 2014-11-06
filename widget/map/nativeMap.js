@@ -64,6 +64,16 @@ define(function() {
          */
         'panTo': function(id, jsonCenter) {
         },
+
+        /**
+         * Get the map zoom level.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @return {number} zoom level
+         */
+        'getZoom': function(id) {
+        },
         
         /**
          * Get the map bounds (South-West and North-East points).
@@ -74,6 +84,17 @@ define(function() {
          *     JSON serialized {sw: LatLng, ne: LatLng}.
          */
         'getBounds': function(id) {
+        },
+        
+        /**
+    	 * Move the map to match the given bounds.
+    	 * 
+    	 * @param id
+    	 *     Map place holder ID.
+    	 * @param jsonBounds
+    	 *     JSON serialized {sw: LatLng, ne: LatLng}.
+    	 */
+        'panToBounds': function(id, jsonBounds){
         },
 
         /**
