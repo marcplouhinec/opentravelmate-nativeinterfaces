@@ -1,7 +1,7 @@
 /**
  * Interface for the native implementation of the WebView widget.
  *
- * @author marc.plouhinec@gmail.com (Marc Plouhinec)
+ * @author Marc Plouhinec
  */
 
 define(function() {

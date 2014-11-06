@@ -1,7 +1,7 @@
 /**
  * Interface for the native implementation of the Map widget.
  *
- * @author marc.plouhinec@gmail.com (Marc Plouhinec)
+ * @author Marc Plouhinec
  */
 
 define(function() {
@@ -139,6 +139,17 @@ define(function() {
          *     JSON serialized MapButton.
          */
         'updateMapButton': function(id, jsonMapButton) {
+        },
+        
+        /**
+         * Remove a button from the map top-right corner.
+         *
+         * @param {String} id
+         *     Map place holder ID.
+         * @param {String} jsonMapButton
+         *     JSON serialized MapButton.
+         */
+        'removeMapButton': function(id, jsonMapButton) {
         },
 
         /**
